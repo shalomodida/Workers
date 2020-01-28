@@ -1,0 +1,30 @@
+body{
+   width: 70%;
+   height: 70%;
+}
+.btn{
+    border: 20px solid white;
+    padding: 5px 15px;
+    font-size: 18px;
+    
+}
+.button1{
+    float: right;
+    clear: left;
+}
+.button2{
+    text-align: center;
+}
+.profile{
+    display: inline-block;
+    flex-wrap: wrap;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+}
+#container{
+    margin-top:5% ;
+    margin-right: auto;
+    margin-left: auto;
+} 
