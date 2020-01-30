@@ -1,0 +1,86 @@
+header{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+}
+nav{
+    background-color: rgb(6, 6, 114);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    padding:10px 90px;
+    box-sizing:border-box;
+}
+nav .logo{
+    padding:5px;
+    height:80px;
+    float:left;
+    font-size:30px;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:white;
+    border: 2px solid white;
+    width:fit-content;
+    height:fit-content;
+}
+.logo{
+    text-align: center;
+    font-family: 'Bitter', serif;
+}   
+nav ul{
+    list-style:none;
+    float:right;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+nav ul li a{
+    line-height:80px;
+    color:#fff;
+    padding:12px 30px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    background:#fff;
+    color:#333;
+    border-radius:3px;
+}
+nav ul li a.active{
+    background:#e2472f;
+    color:#fff;
+    border-radius:6px;
+}
+#contac{
+    position: relative;
+    width: 50%;
+    height:100px;
+    padding: 12px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Comfortaa', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+#rows{
+    color: mediumblue;
+    font-weight: 1500;
+    text-transform: uppercase;
+   
+}.footer-bottom{
+    background-color: rgb(6, 6, 114);
+    color: whitesmoke;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top:20px;
+    width: 100%;
+}
