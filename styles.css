@@ -12,3 +12,15 @@ nav{
     padding:10px 90px;
     box-sizing:border-box;
 }
+nav .logo{
+    padding:5px;
+    height:80px;
+    float:left;
+    font-size:30px;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:white;
+    border: 2px solid white;
+    width:fit-content;
+    height:fit-content;
+}
