@@ -24,3 +24,7 @@ nav .logo{
     width:fit-content;
     height:fit-content;
 }
+.logo{
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
