@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Workers Attendance System</title>
-        <link rel="stylesheet" type="text/css" href="about.css">
-    </head>
-    <body>
-        <header>
-            <div class="wrap">
-                <nav>
-                    <div class="logo">Quick Sign
-                    </div>
-                    <ul>
-                        <li><a class="active" href="home.html"> Home</a></li>
-                        <li><a href="about.html"> About</a></li>
-                        <li><a href="contacts.html"> Contacts</a></li>
-                    </ul>
-                </nav>
-            </div>
-            
-        </header>
+
+<head>
+    <title>Workers Attendance System</title>
+    <link rel="stylesheet" type="text/css" href="about.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="home.html" class="logo">Quick Sign</a>
+        <a href="contacts.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="home.html">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div id="about">
         <h1>ABOUT US</h1>
-        <h2>WORKERS ATTENDANCE SYSTEM</h2>
-        <h2>Quick-Sign</h2>
-        <P>Quick-sign is a system build for automating the processing of attendance, this will enhance the speed of 
-            performing attendance task easily. The system will also help in evacuating attendance eligibility criteria
-            of an employee, it will also falicitate to access the attendance information of aparticular employee in an 
-            organisation.
+
+        <P>Quick-sign is a system build for automating the processing of attendance to enhance the speed of performing attendance task easily. The system will also help in evacuating attendance eligibility criteria of an employee, it will also falicitate
+            to access the attendance information of aparticular employee in an organisation.
         </P>
-        <h2>Here is our User Guide.</h2>
-            <P>The website is supposed to allow workers to easily check-in, check-out and also view shared documents in their computers.</P>
-            
-           <h2>Admin(HR)</h2> 
-           <ol>
-            
-           <li> The admin creates account and add employees into the attendance system.</li>
-           <li>Admin issues employees with username and password where the default username and password are employee number and identity
-             number respectively.</li>
-            <li>When the admin logs-in he/she can view employee check-in and check-out, and post the notifications to the employees.</li>
-        </ol>
-            
-           <h2>User(EMPLOYEE)</h2> 
-            <p>The user now logs-in to the system where he or she is required to check-in, check-out and might view  notifications such as memos.
-            When done he or she has the liberty to log -out.</p>
-            
-    </body>
+        <h2>User Guide.</h2>
+        <P>This site allows employees to easily check-in, check-out and also view shared documents in their computers.</P>
+
+        <h2>Admin(HR)</h2>
+        <p>
+
+            The admin creates account and add employees into the attendance system.<br> Admin issues employees with username and password where the default username and password are employee number and identity number respectively.<br> When the admin
+            logs-in he/she can view employee check-in and check-out, and post the notifications to the employees.<br>
+        </p>
+
+
+        <div class="footer-bottom">
+            &copy; Workers quick-sign | designed by Quick-sign
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+</body>
+
 </html>
