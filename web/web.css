@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+     background-image:url("/home/shalom/Desktop/web/web.imgs/kazuend-p4orVxNl5Ko-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(102, 6, 81);
+  }
+  p{
+      font-size: 30px;
+      color:rgb(7, 1, 1);
+  }
+  h2{
+      font-weight: bold;
+      font-size: 45px;
+  }
+  label{
+      font-size: 35px;
+  }
+  h3{
+      font-size: 35px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
