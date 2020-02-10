@@ -1,21 +1,25 @@
-# {Application Name}
-#### {This is a my portfolio,you'll get to know about me and the things i love to do.}, {9,2,2020 }
+# Personal Portfolio
+#### Portfolio as a Software Engineer, 08/02/2020
+#### By **{List of contributors}**
 ## Description
-{This is is my portfolio where you log in and get to know couples of things about me, you'll also get to see the links to the projects i have worked on . }
+This portfolio entails my background information, my hobbies, work experience, skills and the projects I have done. Basically it contains information about me.
 ## Setup/Installation Requirements
-* log in 
-* know about me
-* you can leave a comment or a message
-* press send to send the message
-<!-- 
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?} -->
-
-## Known Bugs
-{My website is still not responsive.}
+* When a user logs in using  any browser and types in the portfolio  you will see the landing page which basically contains my picture, my name and brief discription of myself.
+* From the homepage there is a navigation bar where one is able to navigate to different things e.g contacts.
+* The first page one likely navigates to is the about page which contains  information about me.
+* The last page is the contacts page which contains a form where one can leave any message for me and most preferably a comment or compliment.
+* All pages contain a footer which has my contact .
+* One needs data bundles to access the portfolio.
 ## Technologies Used
-{I used html to structure my website and css to style my page.}
+* I used HTML to make the structure of the website.
+* I used CSS to style the website.
+
 ## Support and contact details
-{if you have any comments or questions please feel free to reach me on 
-contact: +254701790795 or email me at odidapauline@gmail.com.}
+Feel free to leave  any comment or  any questions through:
+* 0701790795
+* Shalom Pauline Odida - Facebook
+* @odidapauline - Twitter
 ### License
-Copyright (c) {2020} (Shalom Pauline Odida)
+* MIT License
+Copyright (c) 2020 Shalom Pauline Odida
+
